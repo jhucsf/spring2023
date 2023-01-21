@@ -354,6 +354,56 @@ the state of the program in a way that could affect the execution of
 later tests, so in general running only one test function will produce
 a more trustworthy result than running all of the test functions.
 
+If a unit test function fails, you can use `gdb` to debug the test function.
+For example, let's say that the unit test `test_add_2` is failing.
+Start by invoking `gdb` on the test program:
+
+```bash
+gdb ./uint256_tests
+```
+
+At the `gdb` prompt, set a breakpoint at the beginning of
+`test_add_2`, then run the program:
+
+```
+(gdb) break test_add_2
+Breakpoint 1 at 0x3d44: file uint256_tests.c, line 203.
+(gdb) run test_add_2
+Starting program: /home/daveho/git/csf-spring2023-private/src/csf_assign01_solution/uint256_tests test_add_2
+test_add_2...
+Breakpoint 1, test_add_2 (objs=0x7ffff7fac6a0 <_IO_2_1_stdout_>) at uint256_tests.c:203
+203	void test_add_2(TestObjs *objs) {
+(gdb) n
+211	  left.data[0] = 0x4cb6c96c4810cb5eUL;
+(gdb)
+```
+
+At this point, you can use the `next` and `step` commands to execute the
+code.  By stepping into the function call associated with the assertion
+failure, you can trace the execution and inspect data in order to pinpoint
+the cause of the issue.
+
+## Memory correctness
+
+In all C and C++ code you write, we expect that there are no memory errors,
+including
+
+* invalid reads
+* invalid writes
+* uses of uninitialized values
+* memory leaks
+
+We expect you to use the [valgrind](https://www.valgrind.org/) memory trace tool
+to check program execution for occurrences of memory errors. For this assignment,
+run
+
+```bash
+valgrind --leak-check=full ./uint256_tests
+```
+
+There should be no dynamic memory errors, and assuming that all of
+the unit tests pass, there should be no memory leaks.
+
 # Submitting
 
 Before you submit, prepare a `README.txt` file so that it contains your
