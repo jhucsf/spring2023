@@ -3,9 +3,6 @@ layout: mathjax
 title: "Assignment 1: Big integers"
 ---
 
-*Note: this assignment has not been finalized yet. This assignment description
-is incomplete, and details could change.*
-
 Milestone 1: due Monday Jan 30th by 11pm
 
 Milestone 2: due Monday Feb 6th by 11pm
