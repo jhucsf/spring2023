@@ -239,8 +239,80 @@ uint64_t val2 = (1UL << 33);
 
 **Conversion from hex**
 
-TODO
+When implementing the `uint256_create_from_hex` function, you may assume
+that the character string passed as its parameter consists entirely of
+hex digits `0`–`9` and `a`-`f`. You do not need to check the string for
+invalid characters. However, you should *not* assume that the string's
+length is 64 characters or less. If the string has a length greater than
+64, only the *rightmost* 64 hex digits should be used in the conversion.
+
+We strongly recommend using the `strtoul` function to convert chunks
+of hex digits (up to 16 at a time) to `uint64_t` values. A possible
+algorithm is to start with the rightmost 16 hex digits, convert them
+(and assign the resulting value to `data[0]`), and then continue
+working left (towards the beginning of the string) until up to 64 hex
+digits have been converted.
 
 **Conversion to hex**
 
-TODO
+The `uint256_format_as_hex` function should dynamically allocate (using
+`malloc`) a sufficiently large array of `char` elements to store
+a string of hex digits representing the value of the `UInt256` value
+being converted.  We recommend using the `sprintf` function to convert
+a `uint64_t` value to a sequence of hex digits.  For example:
+
+```c
+char    *buf = /* buffer w/ room for at least 16 chars plus NUL terminator */;
+uint64_t val = /* some value */;
+
+sprintf(buf, "%lx", val);    // format without leading 0s
+
+sprintf(buf, "%016lx", val); // format with leading 0s
+```
+
+You will need to write a loop to make sure that the value of
+each element of the `data` array is represented in the resulting hex
+string.  Note that the resulting hex string should **not** have
+unnecessary leading `0` digits.  In other words, the hex string should have
+the minimum number of hex digits needed to represent the
+of the `UInt256` value.
+
+## Writing tests
+
+TODO advice about writing tests
+
+
+
+# Submitting
+
+Before you submit, prepare a `README.txt` file so that it contains your
+names, and briefly summarizes each of your contributions to the submission
+(i.e., who worked on what functionality.) This may be very brief if you
+did not work with a partner.
+
+To submit your work:
+
+Run the following commands to create a `solution.zip` file:
+
+```
+rm -f solution.zip
+zip -9r solution.zip Makefile *.h *.c README.txt
+```
+
+Upload `solution.zip` to [Gradescope](https://www.gradescope.com/)
+as **Assignment 1 MS1** or **Assignment 1 MS2**, depending on which
+milestone you are submitting.
+
+Please check the files you uploaded to make sure they are the ones you
+intended to submit.
+
+## Autograder
+
+When you upload your submission to Gradescope, it will be tested by
+the autograder, which executes unit tests for each required function.
+Please note the following:
+
+* If your code does not compile successfully, all of the tests will fail
+* The autograder runs `valgrind` on your code, but it does *not* report
+  any information about the result of running `valgrind`: points will be
+  deducted if your code has memory errors or memory leaks!
