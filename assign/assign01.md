@@ -279,9 +279,80 @@ of the `UInt256` value.
 
 ## Writing tests
 
-TODO advice about writing tests
+You can use the unit tests provided with the assignment skeleton
+as a guide for adding your own tests. The basic idea is that
+each test function should call functions to perform computations
+on `UInt256` values, and then use `ASSERT` to check the resulting
+values.
 
+Your unit tests should include as many "corner" cases as possible.
+For example:
 
+* adding 0 to a value
+* subtracting 0 from a value
+* causing an addition to overflow
+* causing a subtraction to (negatively) overflow
+
+You can add new tests and assertions to the existing test functions,
+but it is probably a good idea to add some completely new test functions
+of your own. To add a test function,
+
+1. add a function prototype for it (towards the top of the test program),
+2. add a call to the `TEST` macro in the test program's `main` function,
+3. implement the test program (somewhere towards the bottom of the test program)
+
+Note that if you omit step 2, your test function will never be executed.
+
+A Ruby script called `genfact.rb` is provided with the starter code.
+Running this script will generate an arbitrary arithmetic fact that you
+could turn into a unit test. When run without a command line argument,
+the script generates an addition, subtraction, or multiplication fact
+(chosen randomly.) You can provide the argument `add`. `sub`, or `mul`
+to force the generation of an addition, subtraction, or multiplication
+fact.
+
+For example, let's say you run `genfact.rb` and it produces the fact
+
+```
+c0b02ba840f40caf406fd64866ad2fb39a280bf0772e5f0eee7d8c9a5f9e82c - 3f69093a9cdcececda8f5ed979956361e9f16ff7730cfd46e548f7b625a4748 = 8147226da4171fc265e0776eed17cc51b0369bf9042161c8093494e439fa0e4
+```
+
+This fact could be implemented as a unit test as follows:
+
+```c
+UInt256 left, right, result;
+
+left.data[0] = 0xeee7d8c9a5f9e82cUL;
+left.data[1] = 0x39a280bf0772e5f0UL;
+left.data[2] = 0xf406fd64866ad2fbUL;
+left.data[3] = 0xc0b02ba840f40caUL;
+right.data[0] = 0x6e548f7b625a4748UL;
+right.data[1] = 0x1e9f16ff7730cfd4UL;
+right.data[2] = 0xcda8f5ed97995636UL;
+right.data[3] = 0x3f69093a9cdceceUL;
+result = uint256_sub(left, right);
+ASSERT(0x8093494e439fa0e4UL == result.data[0]);
+ASSERT(0x1b0369bf9042161cUL == result.data[1]);
+ASSERT(0x265e0776eed17cc5UL == result.data[2]);
+ASSERT(0x8147226da4171fcUL == result.data[3]);
+```
+
+## Running and debugging tests
+
+By default running the test program with the invocation `./uint256_tests`
+will run each test function in order. However, you can run just one
+test function by naming it on the command line. For example, the invocation
+
+```bash
+./uint256_create_from_u64 test_add_2
+```
+
+will execute only the `test_add_2` test function.  This is useful when
+you are focusing on getting a specific test to pass. Also, because C
+is a memory-unsafe language, it's possible for an earlier test to corrupt
+the state of the program in a way that could affect the execution of
+later tests, so in general running only one test function will produce
+a more trustworthy result than running all of the test functions.
 
 # Submitting
 
