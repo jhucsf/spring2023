@@ -208,6 +208,35 @@ just allow the left-shift operations and additions to overflow.
 The autograder tests will only test multiplications where the product can be
 represented exactly.
 
+You will probably want to implement helper functions for checking whether a
+particular bit is set to 1, and for left-shifting a value by a specified
+number of positions:
+
+```c
+int uint256_bit_is_set(UInt256 val, unsigned index);
+UInt256 uint256_leftshift(UInt256 val, unsigned shift);
+```
+
+You can add declarations for these helper functions to `uint256.h`, and add
+unit tests for them to `uint256_tests.c`.
+
+You will need to think carefully about how to implement the left shift
+operation. Drawing a diagram on paper will probably be helpful.
+Note that when left-shifting a `uint64_t` value, shifting by 64 or more
+positions is undefined behavior.  Also note that literal integer values are,
+by default, 32 bit values which can't be shifted by more than 31 positions.
+Adding the suffix "`UL`" on an integer literal will force its type to be
+`unsigned long`, which is a 64 bit type in the version of `gcc` we are
+using.  So, for example,
+
+```c
+// this shift is undefined behavior
+uint64_t val1 = (1 << 33);
+
+// this shift is well defined
+uint64_t val2 = (1UL << 33);
+```
+
 **Conversion from hex**
 
 TODO
