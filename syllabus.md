@@ -19,7 +19,7 @@ Any updates will be mentioned in class and on Courselore.
 
 Office: Malone 240A
 
-Office hours: TBD
+Office hours: T/Th 1–3 pm, via Zoom (see Courselore for link)
 
 ## Course Assistants
 
@@ -30,8 +30,15 @@ Head CAs:
 
 CAs:
 
-*Coming soon!*
-
+* Elena Kote <ekote1@jhu.edu>
+* Fangjie Li <fli35@jhu.edu>
+* Theo Lee <imeal1@jhu.edu>
+* Kuleen Sasse <ksasse1@jhu.edu>
+* Melody Hsu <mhsu13@jhu.edu>
+* Rena Bi <rbi4@jhu.edu>
+* Rishika Vadlamudi <rvadlam2@jhu.edu>
+* Tony Jung <tjung8@jhu.edu>
+>
 ## Meeting
 
 MWF 10:00–10:50 am in Mergenthaler 111
