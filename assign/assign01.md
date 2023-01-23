@@ -106,6 +106,11 @@ find useful, they are by no means comprehensive. So, you should understand
 that *you are expected to add your own tests.*  For Milestone 2, part of the
 grading criteria includes the comprehensiveness of the tests you write.
 
+**Important restriction**: In your implementation of the functions,
+you must not use any data types (or operations on data types)
+where the size is greater than 64 bits. For example, using the
+`__int128` or `uint128_t` data types is not permitted.
+
 ## Hints and tips
 
 **Addition**
