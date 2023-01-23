@@ -30,6 +30,7 @@ Head CAs:
 
 CAs:
 
+* David Hla <dhla2@jhu.edu>
 * Elena Kote <ekote1@jhu.edu>
 * Fangjie Li <fli35@jhu.edu>
 * Theo Lee <imeal1@jhu.edu>
