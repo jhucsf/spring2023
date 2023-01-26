@@ -67,4 +67,4 @@ Apr 21 | Parallelism, concurrency issues: [slides](lectures/lecture31-public.pdf
 Apr 24 | Concurrency with processes: [slides](lectures/lecture32-public.pdf), [mp_webserver.zip (example code)](lectures/mp_webserver.zip) | *CSAPP* 12.1 | 
 Apr 26 | Concurrency with I/O multiplexing: [slides](lectures/lecture33-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | *CSAPP* 12.2 | 
 Apr 28 | Exam 3 review session |  | <span class='tentative'>A5 MS2 due</span>
-TBD | **Exam 3** (during scheduled final exam session) |  | 
+May 10 | **Exam 3** (9am, location TBD) |  | 
