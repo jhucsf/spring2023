@@ -33,5 +33,7 @@ Gradescope.
 
 ## News
 
+* **Feb 6** — [Assignment 2](assign/assign02.html) has two milestones, due
+  Friday, Feb 17th and Monday, Feb 27th, respectively.
 * **Jan 23** — Welcome! [Assignment 1](assign/assign01.html) has two milestones,
   due Monday, Jan 30th and Monday, Feb 6th, respectively.

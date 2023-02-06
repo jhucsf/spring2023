@@ -10,7 +10,9 @@ This page lists the programming assignments for the course.
 
 Some advice about the programming assignments:
 
-* Do not wait until the last minute to start: if we give you two weeks to complete an assignment, it's because we expect that it will take you two weeks (working steadily)
+* Do not wait until the last minute to start: if we give you two weeks
+  to complete an assignment, it's because we expect that it will take you
+  two weeks (working steadily)
 * Ask questions on [Piazza](https://piazza.com/jhu/fall2022/601229) and in office hours
 * Use good programming practices
 * Test your code thoroughly (plan to spend about as much time testing the code as writing it)
@@ -33,3 +35,4 @@ Please read the [style guidelines](assign/style.html) so that you know what our 
 Assignment | Type | Due
 ---------- | :--: | ---
 [Assignment 1](assign/assign01.html) | Pair | MS1 due Mon Jan 30th<br>MS2 due Mon Feb 6th
+[Assignment 2](assign/assign02.html) | Pair | MS1 due Fri Feb 17th<br>MS2 due Mon Feb 27th
