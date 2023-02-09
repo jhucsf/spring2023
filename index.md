@@ -33,6 +33,9 @@ Gradescope.
 
 ## News
 
+* **Feb 9** — [Assignment 2](assign/assign02.html) has been updated to
+  more clearly indicate that the programs are intended to read input from
+  a file rather than from the terminal.
 * **Feb 6** — [Assignment 2](assign/assign02.html) has two milestones, due
   Friday, Feb 17th and Monday, Feb 27th, respectively.
 * **Jan 23** — Welcome! [Assignment 1](assign/assign01.html) has two milestones,
