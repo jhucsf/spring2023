@@ -33,6 +33,8 @@ Gradescope.
 
 ## News
 
+* **Feb 15** — Exam 1 will take place in class on Friday, Feb 24th.
+  Review materials are available on the [Resources](resources.html) page.
 * **Feb 9** — [Assignment 2](assign/assign02.html) has been updated to
   more clearly indicate that the programs are intended to read input from
   a file rather than from the terminal.
