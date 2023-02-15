@@ -40,7 +40,7 @@ Feb 13 | Arrays and structs: [slides](lectures/lecture10-public.pdf), [arraystru
 Feb 15 | Assembly language in class exercise: [slides](lectures/assembly-exercise-public.pdf) |  | 
 Feb 17 | Code and data interactions, buffer overflows: [slides](lectures/lecture11-public.pdf), [buf.zip (example code)](lectures/buf.zip) | *CSAPP* 3.10 | [A2 MS1 due](assign/assign02.html)
 Feb 20 | Program optimization (basic techniques): see Canvas for slides | *CSAPP* 5.1–5.8 | 
-Feb 22 | Exam 1 review session: [slides](<span class='tentative'>A2 MS2 due</span>) |  | 
+Feb 22 | Exam 1 review session |  | 
 Feb 24 | **Exam 1** (in class) |  | 
 Feb 27 | Pipelines: [slides](lectures/lecture13-public.pdf) | <i>P&amp;H</i> 4.5–4.7 | [A2 MS2 due](assign/assign02.html)
 Mar 1 | Program optimization (ILP, memory, profiling): see Canvas for slides | *CSAPP* 5.9–5.14 | 
