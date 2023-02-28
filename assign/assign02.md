@@ -5,7 +5,7 @@ title: "Assignment 2: Hex dump"
 
 Milestone 1: due Friday, Feb 17th by 11pm
 
-Milestone 2: due Monday, Feb 27th by 11pm
+Milestone 2: due <strike>Monday, Feb 27th</strike> Tuesday, Feb 28th by 11pm
 
 Assignment type: **Pair**, you may work with one partner
 
