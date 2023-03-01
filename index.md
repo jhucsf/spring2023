@@ -33,6 +33,8 @@ Gradescope.
 
 ## News
 
+* **Mar 1** — [Assignment 3](assign/assign03.html) has 3 milestones, due (respectively)
+  Monday, Mar 6th, Wednesday, Mar 15th, and Wednesday, Mar 29th.
 * **Feb 27** — The due date for Milestone 2 of [Assignment 2](assign/assign02.html)
   has been extended one day, to Tuesday, Feb 28th.
 * **Feb 15** — Exam 1 will take place in class on Friday, Feb 24th.
