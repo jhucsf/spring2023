@@ -33,6 +33,8 @@ Gradescope.
 
 ## News
 
+* **Mar 29** — [Assignment 4](assign/assign04.html) is due on Monday,
+  April 10th.
 * **Mar 28** — Exam 2 will take place in class on Wednesday, April 5th.
   Review materials are available on the [Resources](resources.html) page.
 * **Mar 1** — [Assignment 3](assign/assign03.html) has 3 milestones, due (respectively)

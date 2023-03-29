@@ -30,10 +30,10 @@ Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic/Slides | Reading | Assignment
 Jan 23 | Course overview, binary data representation review: [slides](lectures/lecture01-public.pdf) | *CSAPP* 1.1–1.9 | 
 Jan 25 | Data representation, addresses: [slides](lectures/lecture02-public.pdf) | *CSAPP* 2.1 | 
 Jan 27 | Integer representation: [slides](lectures/lecture03-public.pdf) | *CSAPP* 2.2 | 
-Jan 30 | Integer arithmetic: [slides](lectures/lecture04-public.pdf) | *CSAPP* 2.3 | [A1 MS1](assign/assign01.html) due
+Jan 30 | Integer arithmetic: [slides](lectures/lecture04-public.pdf) | *CSAPP* 2.3 | [A1 MS1 due](assign/assign01.html)
 Feb 1 | Floating point: [slides](lectures/lecture05-public.pdf) | *CSAPP* 2.4 | 
 Feb 3 | Machine-level program representation: [slides](lectures/lecture06-public.pdf) | *CSAPP* 3.1–3.4 | 
-Feb 6 | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf), [alu.zip (example code)](lectures/alu.zip) | *CSAPP* 3.5 | [A1 MS2](assign/assign01.html) due
+Feb 6 | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf), [alu.zip (example code)](lectures/alu.zip) | *CSAPP* 3.5 | [A1 MS2 due](assign/assign01.html)
 Feb 8 | Control flow: [slides](lectures/lecture08-public.pdf), [control.zip (example code)](lectures/control.zip) | *CSAPP* 3.6 | 
 Feb 10 | Procedures, stacks: [slides](lectures/lecture09-public.pdf), [control2.zip (example code)](lectures/control2.zip) | *CSAPP* 3.7 | 
 Feb 13 | Arrays and structs: [slides](lectures/lecture10-public.pdf), [arraystruct.zip (example code)](lectures/arraystruct.zip) | *CSAPP* 3.8–3.9 | 
@@ -42,7 +42,7 @@ Feb 17 | Code and data interactions, buffer overflows: [slides](lectures/lecture
 Feb 20 | Program optimization (basic techniques): see Canvas for slides | *CSAPP* 5.1–5.8 | 
 Feb 22 | Exam 1 review session |  | 
 Feb 24 | **Exam 1** (in class) |  | 
-Feb 27 | Pipelines: [slides](lectures/lecture13-public.pdf) | <i>P&amp;H</i> 4.5–4.7 | [A2 MS2 due](assign/assign02.html) Tues 2/28
+Feb 27 | Pipelines: [slides](lectures/lecture13-public.pdf) | <i>P&amp;H</i> 4.5–4.7 | [A2 MS2 due Tues 2/28](assign/assign02.html)
 Mar 1 | Program optimization (ILP, memory, profiling): see Canvas for slides | *CSAPP* 5.9–5.14 | 
 Mar 3 | Memory hierarchy: [slides](lectures/lecture15-public.pdf) | *CSAPP* 6.1–6.3 | 
 Mar 6 | Cache policies: [slides](lectures/lecture16-public.pdf) | *CSAPP* 6.4 | [A3 MS1 due](assign/assign03.html)
@@ -58,7 +58,7 @@ Mar 31 | Memory mapping, dynamic memory allocation: [slides](lectures/lecture24-
 Apr 3 | Exam 2 review session |  | 
 Apr 5 | **Exam 2** (in class) |  | 
 Apr 7 | Unix I/O, files: [slides](lectures/lecture25-public.pdf) | *CSAPP* 10.1–10.11 | 
-Apr 10 | Networks, Internet Protocol: [slides](lectures/lecture26-public.pdf) | *CSAPP* 11.1–11.3 | <span class='tentative'>A4 due</span>
+Apr 10 | Networks, Internet Protocol: [slides](lectures/lecture26-public.pdf) | *CSAPP* 11.1–11.3 | [A4 due](assign/assign04.html)
 Apr 12 | Sockets, Application Protocols: [slides](lectures/lecture27-public.pdf), [sockets.zip (example code)](lectures/sockets.zip) | *CSAPP* 11.4 | 
 Apr 14 | Network applications, HTTP: [slides](lectures/lecture28-public.pdf), [webserver.zip (example code)](lectures/webserver.zip) | *CSAPP* 11.4–11.6 | 
 Apr 17 | Concurrency with pthreads: [slides](lectures/lecture29-public.pdf), [mt_webserver.zip (example code)](lectures/mt_webserver.zip) | *CSAPP* 12.3 | 
