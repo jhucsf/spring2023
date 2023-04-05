@@ -39,7 +39,8 @@ CAs:
 * Rena Bi <rbi4@jhu.edu>
 * Rishika Vadlamudi <rvadlam2@jhu.edu>
 * Tony Jung <tjung8@jhu.edu>
->
+* Lisa Hou <qhou4@jh.edu>
+
 ## Meeting
 
 MWF 10:00–10:50 am in Mergenthaler 111
