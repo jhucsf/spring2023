@@ -33,6 +33,9 @@ Gradescope.
 
 ## News
 
+* **Apr 10** — [Assignment 5](assign/assign05.html) has two milestones.
+  Milestone 1 is due Wednesday, April 19th, and Milestone 2 is due Friday,
+  April 28th. Note that each milestone is weighted as a full assignment.
 * **Mar 29** — [Assignment 4](assign/assign04.html) is due on Monday,
   April 10th.
 * **Mar 28** — Exam 2 will take place in class on Wednesday, April 5th.

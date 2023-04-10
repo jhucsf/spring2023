@@ -63,8 +63,8 @@ Apr 12 | Sockets, Application Protocols: [slides](lectures/lecture27-public.pdf)
 Apr 14 | Network applications, HTTP: [slides](lectures/lecture28-public.pdf), [webserver.zip (example code)](lectures/webserver.zip) | *CSAPP* 11.4–11.6 | 
 Apr 17 | Concurrency with pthreads: [slides](lectures/lecture29-public.pdf), [mt_webserver.zip (example code)](lectures/mt_webserver.zip) | *CSAPP* 12.3 | 
 Apr 19 | Thread synchronization: [slides](lectures/lecture30-public.pdf), [synch.zip (example code)](lectures/synch.zip) | *CSAPP* 12.4–12.5 | 
-Apr 21 | Parallelism, concurrency issues: [slides](lectures/lecture31-public.pdf), [synch2.zip (example code)](lectures/synch2.zip) | *CSAPP* 12.6–12.7 | <span class='tentative'>A5 MS1 due</span>
+Apr 21 | Parallelism, concurrency issues: [slides](lectures/lecture31-public.pdf), [synch2.zip (example code)](lectures/synch2.zip) | *CSAPP* 12.6–12.7 | [A5 MS1 due](assign/assign05.html)
 Apr 24 | Concurrency with processes: [slides](lectures/lecture32-public.pdf), [mp_webserver.zip (example code)](lectures/mp_webserver.zip) | *CSAPP* 12.1 | 
 Apr 26 | Concurrency with I/O multiplexing: [slides](lectures/lecture33-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | *CSAPP* 12.2 | 
-Apr 28 | Exam 3 review session |  | <span class='tentative'>A5 MS2 due</span>
+Apr 28 | Exam 3 review session |  | [A5 MS2 due](assign/assign05.html)
 May 10 | **Exam 3** (9am, location TBD) |  | 
