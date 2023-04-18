@@ -22,7 +22,7 @@ fi
 stdbuf -oL \
     nc -l -p ${PORT} \
         < ${SERVER_INPUT} \
-        > ${OUTPUT_STEM}-recieved.out &
+        > ${OUTPUT_STEM}-received.out &
 NETCAT_PID=$!
 # automatically kill netcat if the script dies after netcat starts
 trap "kill -9 ${NETCAT_PID}" ERR
