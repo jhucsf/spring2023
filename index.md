@@ -33,6 +33,10 @@ Gradescope.
 
 ## News
 
+* **Apr 21** — Exam 3 will take place on **Wednesday, May 10th**
+  at **9 am** in Mergenthaler 111. Review materials are available on
+  the [Resources](resources.html) page. Class on Friday, April 28th
+  will be a review session for Exam 3. (Please bring questions!)
 * **Apr 10** — [Assignment 5](assign/assign05.html) has two milestones.
   Milestone 1 is due Wednesday, April 19th, and Milestone 2 is due Friday,
   April 28th. Note that each milestone is weighted as a full assignment.
